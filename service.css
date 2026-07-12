@@ -1,10 +1,11 @@
+
 .background{
     background:linear-gradient(180deg,#0b0b0b,#151515,#101010);
 }
 .text_color {
     margin-left:80px;
     color: #ffffff;
-    font-family:Poppins,sans-serif;
+    font-family:'Minecraft';
 }
 .container{
     display:flex;
@@ -30,7 +31,7 @@
 
 .quest_color{
     color:#22c55e;
-    font-family:Poppins,sans-serif;
+    font-family:'minecraft';
     font-size:38px;
     font-weight:700;
 }
@@ -62,7 +63,7 @@ h2{
 
 .logo{
     color:#333;
-    font-family:Arial, sans-serif;
+    font-family:'minecraft';
 }
 nav{
     display:flex;
@@ -90,6 +91,7 @@ nav a{
     color:#333;
     font-weight:bold;
     transition:0.3s;
+    font-family: 'minecraft';
 }
 
 nav a:hover{
@@ -97,6 +99,31 @@ nav a:hover{
 }
 .color{
     color:#ffffff;
+}
+.button_container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.official_website_btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #115263;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Minecraft';
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(17, 82, 99, 0.3);
+}
+
+.official_website_btn:hover {
+    background-color: #0d3f4f;
+    box-shadow: 0 6px 20px rgba(17, 82, 99, 0.5);
+    transform: translateY(-3px);
 }
 /* ---------- Mobile ---------- */
 @media (max-width: 768px) {
